@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Dřevěná chatrč",
+    "materials": [
+      { "resource": "Kámen", "quantity": 10 },
+      { "resource": "Kláda", "quantity": 10 },
+      { "resource": "Klacek", "quantity": 60 },
+      { "resource": "Dřevěné kolíky", "quantity": 60 },
+      { "resource": "Rákos", "quantity": 20 }
+    ],
+    "capacity": 3,
+    "description": "Jednoduchá chatrč pro základní přístřeší.",
+    "category": "Obytná",
+    "maintenance": [
+      { "resource": "Rákos", "quantity": 5 }
+    ]
+  },
+  {
+    "name": "Dřevěný dům",
+    "materials": [
+      { "resource": "Kámen", "quantity": 15 },
+      { "resource": "Kláda", "quantity": 20 },
+      { "resource": "Klacek", "quantity": 90 },
+      { "resource": "Dřevěné kolíky", "quantity": 90 },
+      { "resource": "Rákos", "quantity": 50 }
+    ],
+    "capacity": 4,
+    "description": "Středně velký dům pro rodinu.",
+    "category": "Obytná",
+    "maintenance": [
+      { "resource": "Rákos", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Lepší dřevěný dům",
+    "materials": [
+      { "resource": "Kámen", "quantity": 15 },
+      { "resource": "Kláda", "quantity": 20 },
+      { "resource": "Prkno", "quantity": 40 },
+      { "resource": "Dřevěné kolíky", "quantity": 90 }
+    ],
+    "capacity": 4,
+    "description": "Vylepšený dům s lepší izolací.",
+    "category": "Obytná",
+    "maintenance": [
+      { "resource": "Prkno", "quantity": 5 }
+    ]
+  },
+  {
+    "name": "Kamenný dům",
+    "materials": [
+      { "resource": "Kámen", "quantity": 20 },
+      { "resource": "Kláda", "quantity": 20 },
+      { "resource": "Kamenný blok", "quantity": 90 },
+      { "resource": "Malta", "quantity": 20 },
+      { "resource": "Hřebíky", "quantity": 40 },
+      { "resource": "Prkno", "quantity": 20 }
+    ],
+    "capacity": 3,
+    "description": "Odolný dům z kamene.",
+    "category": "Obytná",
+    "maintenance": [
+      { "resource": "Malta", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Stodola",
+    "materials": [
+      { "resource": "Kámen", "quantity": 30 },
+      { "resource": "Kláda", "quantity": 50 },
+      { "resource": "Prkno", "quantity": 100 }
+    ],
+    "capacity": 10,
+    "description": "Velká budova pro skladování obilí a dalších plodin.",
+    "category": "Skladovací",
+    "maintenance": [
+      { "resource": "Prkno", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Kurník",
+    "materials": [
+      { "resource": "Kláda", "quantity": 10 },
+      { "resource": "Prkno", "quantity": 20 },
+      { "resource": "Rákos", "quantity": 15 }
+    ],
+    "capacity": 5,
+    "description": "Malá budova pro chov slepic.",
+    "category": "Zemědělská",
+    "maintenance": [
+      { "resource": "Rákos", "quantity": 5 }
+    ]
+  },
+  {
+    "name": "Vepřín",
+    "materials": [
+      { "resource": "Kámen", "quantity": 40 },
+      { "resource": "Kláda", "quantity": 30 },
+      { "resource": "Prkno", "quantity": 50 }
+    ],
+    "capacity": 8,
+    "description": "Budova pro chov prasat.",
+    "category": "Zemědělská",
+    "maintenance": [
+      { "resource": "Prkno", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Farmářská bouda",
+    "materials": [
+      { "resource": "Kláda", "quantity": 20 },
+      { "resource": "Prkno", "quantity": 30 },
+      { "resource": "Rákos", "quantity": 25 }
+    ],
+    "capacity": 6,
+    "description": "Přístřeší pro farmáře a jejich nástroje.",
+    "category": "Zemědělská",
+    "maintenance": [
+      { "resource": "Rákos", "quantity": 5 }
+    ]
+  },
+  {
+    "name": "Radnice",
+    "materials": [
+      { "resource": "Kámen", "quantity": 100 },
+      { "resource": "Kamenný blok", "quantity": 50 },
+      { "resource": "Prkno", "quantity": 80 }
+    ],
+    "capacity": 15
+  },
+  {
+    "name": "Krejčovna",
+    "materials": [
+      { "resource": "Kláda", "quantity": 20 },
+      { "resource": "Prkno", "quantity": 40 },
+      { "resource": "Látka", "quantity": 30 }
+    ],
+    "capacity": 4
+  },
+  {
+    "name": "Kovárna",
+    "materials": [
+      { "resource": "Kámen", "quantity": 50 },
+      { "resource": "Prkno", "quantity": 30 },
+      { "resource": "Železo", "quantity": 40 }
+    ],
+    "capacity": 5
+  },
+  {
+    "name": "Kasárna",
+    "materials": [
+      { "resource": "Kámen", "quantity": 80 },
+      { "resource": "Prkno", "quantity": 60 },
+      { "resource": "Železo", "quantity": 50 }
+    ],
+    "capacity": 20
+  },
+  {
+    "name": "Lovecká chýše",
+    "materials": [
+      { "resource": "Kláda", "quantity": 15 },
+      { "resource": "Prkno", "quantity": 25 },
+      { "resource": "Kůže", "quantity": 10 }
+    ],
+    "capacity": 3
+  },
+  {
+    "name": "Pekárna",
+    "materials": [
+      { "resource": "Kámen", "quantity": 40 },
+      { "resource": "Prkno", "quantity": 30 },
+      { "resource": "Hřebíky", "quantity": 20 }
+    ],
+    "capacity": 4
+  },
+  {
+    "name": "Mlýn",
+    "materials": [
+      { "resource": "Kámen", "quantity": 60 },
+      { "resource": "Prkno", "quantity": 50 },
+      { "resource": "Hřebíky", "quantity": 30 }
+    ],
+    "capacity": 6
+  },
+  {
+    "name": "Tesařství",
+    "materials": [
+      { "resource": "Kláda", "quantity": 40 },
+      { "resource": "Prkno", "quantity": 60 },
+      { "resource": "Hřebíky", "quantity": 20 }
+    ],
+    "capacity": 5
+  },
+  {
+    "name": "Lihovar",
+    "materials": [
+      { "resource": "Kámen", "quantity": 50 },
+      { "resource": "Prkno", "quantity": 40 },
+      { "resource": "Hřebíky", "quantity": 20 }
+    ],
+    "capacity": 4
+  },
+  {
+    "name": "Hospoda",
+    "materials": [
+      { "resource": "Kámen", "quantity": 70 },
+      { "resource": "Prkno", "quantity": 50 },
+      { "resource": "Hřebíky", "quantity": 30 }
+    ],
+    "capacity": 10
+  },
+  {
+    "name": "Dílna",
+    "materials": [
+      { "resource": "Kámen", "quantity": 40 },
+      { "resource": "Prkno", "quantity": 30 },
+      { "resource": "Hřebíky", "quantity": 20 }
+    ],
+    "capacity": 5
+  },
+  {
+    "name": "Sušárna",
+    "materials": [
+      { "resource": "Kláda", "quantity": 30 },
+      { "resource": "Prkno", "quantity": 40 },
+      { "resource": "Rákos", "quantity": 20 }
+    ],
+    "capacity": 4
+  },
+  {
+    "name": "Kostel",
+    "materials": [
+      { "resource": "Kámen", "quantity": 100 },
+      { "resource": "Kamenný blok", "quantity": 60 },
+      { "resource": "Prkno", "quantity": 80 }
+    ],
+    "capacity": 20
+  },
+  {
+    "name": "Obchod",
+    "materials": [
+      { "resource": "Kámen", "quantity": 50 },
+      { "resource": "Prkno", "quantity": 40 },
+      { "resource": "Hřebíky", "quantity": 20 }
+    ],
+    "capacity": 6
+  },
+  {
+    "name": "Lazaret",
+    "materials": [
+      { "resource": "Kámen", "quantity": 70 },
+      { "resource": "Prkno", "quantity": 50 },
+      { "resource": "Hřebíky", "quantity": 30 }
+    ],
+    "capacity": 8
+  },
+  {
+    "name": "Kašna",
+    "materials": [
+      { "resource": "Kámen", "quantity": 40 },
+      { "resource": "Kamenný blok", "quantity": 20 },
+      { "resource": "Malta", "quantity": 10 }
+    ],
+    "capacity": 0
+  },
+  {
+    "name": "Bylinná bouda",
+    "materials": [
+      { "resource": "Kláda", "quantity": 20 },
+      { "resource": "Prkno", "quantity": 30 },
+      { "resource": "Rákos", "quantity": 15 }
+    ],
+    "capacity": 3
+  }
+]

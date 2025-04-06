@@ -1,0 +1,187 @@
+[
+  {
+    "name": null,
+    "generatedName": true,
+    "role": "Kovář",
+    "location": "Vesnice Ironforge",
+    "dialogs": [
+      "Zdravím, cestovateli! Potřebuješ nabrousit meč?",
+      "Obchod jde dobře, ale hodil by se mi vzácný kov."
+    ],
+    "quests": [
+      {
+        "title": "Sežeň vzácnou rudu",
+        "description": "Přines 10 jednotek vzácné rudy kováři Johnovi.",
+        "reward": "50 zlatých a speciální meč"
+      }
+    ],
+    "dailyRoutine": {
+      "morning": "Pracuje v kovárně",
+      "afternoon": "Navštěvuje trh",
+      "evening": "Pracuje v kovárně",
+      "night": "Spí doma"
+    },
+    "hireable": {
+      "available": true,
+      "cost": "100 zlatých za den",
+      "conditions": "Nejprve musíš splnit úkol 'Sežeň vzácnou rudu'"
+    },
+    "respectLevel": 50,
+    "opinion": {
+      "aboutPlayer": "Jsi schopný vůdce, ale je co zlepšovat.",
+      "aboutTown": "Město roste, ale potřebujeme lepší obchodní cesty."
+    },
+    "interactions": {
+      "questions": [
+        {
+          "question": "Jakou mám u tebe úroveň respektu?",
+          "response": "Tvoje úroveň respektu je momentálně ${respectLevel}."
+        },
+        {
+          "question": "Jak se máš?",
+          "response": "Mám se dobře, jen jsem zaneprázdněný prací v kovárně."
+        },
+        {
+          "question": "Máš nějaké návrhy na zlepšení města?",
+          "response": "Mohli bychom zlepšit obchodní cesty, aby přivážely vzácné materiály."
+        },
+        {
+          "question": "Co si myslíš o starostovi?",
+          "response": "Starosta odvádí slušnou práci, ale vždy je co zlepšovat."
+        },
+        {
+          "question": "Jaký je tvůj sen o městě?",
+          "response": "Sním o rušném obchodním centru, kde se všem daří."
+        },
+        {
+          "question": "Co si myslíš o mně?",
+          "response": "${opinion.aboutPlayer}"
+        },
+        {
+          "question": "Co si myslíš o městě?",
+          "response": "${opinion.aboutTown}"
+        }
+      ]
+    },
+    "joinable": {
+      "canJoin": true,
+      "conditions": "Hráč musí mít dostatek místa ve městě a splnit úkol 'Sežeň vzácnou rudu'.",
+      "dialog": "Rád bych se přidal do tvého města, pokud máš místo a splnil jsi můj úkol."
+    }
+  },
+  {
+    "name": null,
+    "generatedName": true,
+    "role": "Farmář",
+    "location": "Greenfield",
+    "dialogs": [
+      "Plodiny rostou dobře tuto sezónu.",
+      "Mohl bys mi pomoci s nějakými škůdci na poli?"
+    ],
+    "quests": [
+      {
+        "title": "Likvidace škůdců",
+        "description": "Zlikviduj 15 škůdců na poli Eleanor.",
+        "reward": "20 zlatých a čerstvá zelenina"
+      }
+    ],
+    "dailyRoutine": {
+      "morning": "Starání se o plodiny",
+      "afternoon": "Krmí zvířata",
+      "evening": "Připravuje se na další den",
+      "night": "Spí doma"
+    },
+    "hireable": {
+      "available": false,
+      "reason": "Eleanor preferuje zůstat na své farmě"
+    },
+    "respectLevel": 40,
+    "opinion": {
+      "aboutPlayer": "Jsi laskavý, ale přál bych si, abys častěji navštěvoval farmy.",
+      "aboutTown": "Město je v pořádku, ale pole potřebují více pracovníků."
+    },
+    "interactions": {
+      "questions": [
+        {
+          "question": "Jakou mám u tebe úroveň respektu?",
+          "response": "Tvoje úroveň respektu je momentálně ${respectLevel}."
+        },
+        {
+          "question": "Jak se máš?",
+          "response": "Farma se má dobře, ale vždy je co dělat."
+        },
+        {
+          "question": "Máš nějaké návrhy na zlepšení města?",
+          "response": "Potřebujeme více rukou, které by pomohly na polích."
+        },
+        {
+          "question": "Co si myslíš o mně?",
+          "response": "${opinion.aboutPlayer}"
+        },
+        {
+          "question": "Co si myslíš o městě?",
+          "response": "${opinion.aboutTown}"
+        }
+      ]
+    },
+    "joinable": {
+      "canJoin": false,
+      "reason": "Eleanor preferuje zůstat na své farmě."
+    }
+  },
+  {
+    "name": null,
+    "generatedName": true,
+    "role": "Nezaměstnaný",
+    "location": "Vesnice Ironforge",
+    "dialogs": [
+      "Život je jednoduchý, ale daně jsou břemenem.",
+      "Doufám, že jednou najdu práci."
+    ],
+    "quests": [],
+    "dailyRoutine": {
+      "morning": "Starání se o malou zahrádku",
+      "afternoon": "Povídání si se sousedy",
+      "evening": "Trávení času v hospodě",
+      "night": "Spí doma"
+    },
+    "taxpayer": {
+      "monthlyTax": "0.30 grošů",
+      "paidTo": "Starosta vesnice Ironforge"
+    },
+    "respectLevel": 30,
+    "opinion": {
+      "aboutPlayer": "Děláš, co můžeš, ale snížení daní by nám hodně pomohlo.",
+      "aboutTown": "Město se potýká s problémy a nezaměstnaní lidé jako já potřebují více příležitostí."
+    },
+    "interactions": {
+      "questions": [
+        {
+          "question": "Jakou mám u tebe úroveň respektu?",
+          "response": "Tvoje úroveň respektu je momentálně ${respectLevel}."
+        },
+        {
+          "question": "Jak se máš?",
+          "response": "Zvládám to, ale najít práci by věci zlepšilo."
+        },
+        {
+          "question": "Máš nějaké návrhy na zlepšení města?",
+          "response": "Snížení daní by pomohlo lidem jako já."
+        },
+        {
+          "question": "Co si myslíš o mně?",
+          "response": "${opinion.aboutPlayer}"
+        },
+        {
+          "question": "Co si myslíš o městě?",
+          "response": "${opinion.aboutTown}"
+        }
+      ]
+    },
+    "joinable": {
+      "canJoin": true,
+      "conditions": "Hráč musí snížit daně ve městě.",
+      "dialog": "Pokud snížíš daně, rád se přidám do tvého města."
+    }
+  }
+]

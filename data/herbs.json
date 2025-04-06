@@ -1,0 +1,172 @@
+{
+  "herbs": [
+    {
+      "name": "Jitrocel",
+      "description": "+5% Zdraví",
+      "effect": { "type": "heal_HP", "value": 5 },
+      "season": ["Jaro", "Léto", "Podzim"],
+      "base_price": 0.7,
+      "sell_price": 0.35,
+      "buy_price": 1.05
+    },
+    {
+      "name": "Třezalka",
+      "description": "-2% Otrava",
+      "effect": { "type": "reduce_poison", "value": 2 },
+      "season": ["Jaro", "Léto", "Podzim"],
+      "base_price": 0.5,
+      "sell_price": 0.25,
+      "buy_price": 0.75
+    },
+    {
+      "name": "Heřmánek",
+      "description": "+10% Regenerace zdraví",
+      "effect": { "type": "regenerate_HP", "value": 10 },
+      "duration": "5 sec",
+      "season": ["Jaro", "Léto"],
+      "base_price": 0.6,
+      "sell_price": 0.3,
+      "buy_price": 0.9
+    },
+    {
+      "name": "Máta",
+      "description": "+5% Energie",
+      "effect": { "type": "boost_energy", "value": 5 },
+      "duration": "10 sec",
+      "season": ["Jaro", "Léto"],
+      "base_price": 0.8,
+      "sell_price": 0.4,
+      "buy_price": 1.2
+    },
+    {
+      "name": "Šalvěj",
+      "description": "+10% Odolnost",
+      "effect": { "type": "boost_resistance", "value": 10 },
+      "duration": "15 sec",
+      "season": ["Léto", "Podzim"],
+      "base_price": 0.7,
+      "sell_price": 0.35,
+      "buy_price": 1.05
+    },
+    {
+      "name": "Levandule",
+      "description": "-5% Stres",
+      "effect": { "type": "reduce_stress", "value": 5 },
+      "duration": "20 sec",
+      "season": ["Léto"],
+      "base_price": 0.9,
+      "sell_price": 0.45,
+      "buy_price": 1.35
+    },
+    {
+      "name": "Kopřiva",
+      "description": "+5% Síla",
+      "effect": { "type": "boost_strength", "value": 5 },
+      "duration": "10 sec",
+      "season": ["Jaro", "Léto"],
+      "base_price": 0.5,
+      "sell_price": 0.25,
+      "buy_price": 0.75
+    },
+    {
+      "name": "Rozmarýn",
+      "description": "+5% Koncentrace",
+      "effect": { "type": "boost_focus", "value": 5 },
+      "duration": "10 sec",
+      "season": ["Jaro", "Léto"],
+      "base_price": 0.8,
+      "sell_price": 0.4,
+      "buy_price": 1.2
+    },
+    {
+      "name": "Tymián",
+      "description": "+5% Imunita",
+      "effect": { "type": "boost_immunity", "value": 5 },
+      "duration": "15 sec",
+      "season": ["Jaro", "Léto"],
+      "base_price": 0.6,
+      "sell_price": 0.3,
+      "buy_price": 0.9
+    },
+    {
+      "name": "Meduňka",
+      "description": "-10% Únava",
+      "effect": { "type": "reduce_fatigue", "value": 10 },
+      "duration": "20 sec",
+      "season": ["Jaro", "Léto"],
+      "base_price": 0.7,
+      "sell_price": 0.35,
+      "buy_price": 1.05
+    },
+    {
+      "name": "Pelyněk",
+      "description": "+5% Detoxikace",
+      "effect": { "type": "detoxify", "value": 5 },
+      "duration": "10 sec",
+      "season": ["Podzim"],
+      "base_price": 0.9,
+      "sell_price": 0.45,
+      "buy_price": 1.35
+    },
+    {
+      "name": "Řebříček",
+      "description": "+5% Léčení ran",
+      "effect": { "type": "heal_wounds", "value": 5 },
+      "duration": "5 sec",
+      "season": ["Jaro", "Léto"],
+      "base_price": 0.6,
+      "sell_price": 0.3,
+      "buy_price": 0.9
+    },
+    {
+      "name": "Hřib smrkový",
+      "description": "+10% Výdrž",
+      "effect": { "type": "boost_stamina", "value": 10 },
+      "duration": "15 sec",
+      "season": ["Léto", "Podzim"],
+      "base_price": 1.0,
+      "sell_price": 0.5,
+      "buy_price": 1.5
+    },
+    {
+      "name": "Liška obecná",
+      "description": "+5% Reflexy",
+      "effect": { "type": "boost_reflexes", "value": 5 },
+      "duration": "10 sec",
+      "season": ["Léto", "Podzim"],
+      "base_price": 1.2,
+      "sell_price": 0.6,
+      "buy_price": 1.8
+    },
+    {
+      "name": "Bedla vysoká",
+      "description": "+5% Odolnost vůči jedům",
+      "effect": { "type": "boost_poison_resistance", "value": 5 },
+      "duration": "20 sec",
+      "season": ["Léto", "Podzim"],
+      "base_price": 0.8,
+      "sell_price": 0.4,
+      "buy_price": 1.2
+    },
+    {
+      "name": "Muchomůrka červená",
+      "description": "-10% Stres (riziko otravy)",
+      "effect": { "type": "reduce_stress_with_risk", "value": 10 },
+      "duration": "10 sec",
+      "season": ["Léto", "Podzim"],
+      "base_price": 0.5,
+      "sell_price": 0.25,
+      "buy_price": 0.75
+    },
+    {
+      "name": "Hlíva ústřičná",
+      "description": "+5% Imunita",
+      "effect": { "type": "boost_immunity", "value": 5 },
+      "duration": "15 sec",
+      "season": ["Podzim", "Zima"],
+      "base_price": 1.0,
+      "sell_price": 0.5,
+      "buy_price": 1.5
+    }
+  ]
+}

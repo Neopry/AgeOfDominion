@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Chléb",
+    "description": "Výživný chléb",
+    "ingredients": [
+      { "resource": "Mouka", "quantity": 4 },
+      { "resource": "Voda", "quantity": 2 },
+      { "resource": "Sůl", "quantity": 1 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 15 },
+      { "type": "add_hunger", "value": 20 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Pekárna", "Kuchyňská plotna"],
+    "crafting_time": 4,
+    "icon": "assets/icons/chleba.jpg",
+    "preserved_food": true,
+    "shelf_life_days": 10,
+    "stack_limit": 10
+  },
+  {
+    "name": "Pečené maso",
+    "description": "Pečené maso",
+    "ingredients": [{ "resource": "Syrové maso", "quantity": 1 }],
+    "effect": [
+      { "type": "heal_hp", "value": 5 },
+      { "type": "add_hunger", "value": 10 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Ohniště", "Krb", "Kuchyňská plotna"],
+    "crafting_time": 3,
+    "icon": "assets/icons/pecene_maso.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 7,
+    "stack_limit": 10
+  },
+  {
+    "name": "Syrové maso",
+    "description": "Syrové maso",
+    "effect": [
+      { "type": "poison_hp", "value": 5 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "icon": "assets/icons/syrove_maso.jpg",
+    "crafting_time": 2,
+    "preserved_food": false,
+    "shelf_life_days": 2,
+    "stack_limit": 10
+  },
+  {
+    "name": "Borůvkový koláč",
+    "description": "Lahodný borůvkový koláč",
+    "ingredients": [
+      { "resource": "Borůvky", "quantity": 60 },
+      { "resource": "Mouka", "quantity": 5 },
+      { "resource": "Vejce", "quantity": 10 },
+      { "resource": "Mléko", "quantity": 2 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 15 },
+      { "type": "add_water", "value": 20 },
+      { "type": "add_huger", "value": 50 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Pekárna", "Kuchyňská plotna"],
+    "crafting_time": 5,
+    "icon": "assets/icons/boruvkovy_kolac.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 5
+  },
+  {
+    "name": "Jablečný koláč",
+    "description": "Lahodný jablečný koláč",
+    "ingredients": [
+      { "resource": "Jablka", "quantity": 5 },
+      { "resource": "Mouka", "quantity": 5 },
+      { "resource": "Vejce", "quantity": 10 },
+      { "resource": "Mléko", "quantity": 2 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 15 },
+      { "type": "add_water", "value": 20 },
+      { "type": "add_huger", "value": 50 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Pekárna", "Kuchyňská plotna"],
+    "crafting_time": 5,
+    "icon": "assets/icons/jablecny_kolac.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 5
+  },
+  {
+    "name": "Hruškový koláč",
+    "description": "Lahodný hruškový koláč",
+    "ingredients": [
+      { "resource": "Hrušky", "quantity": 5 },
+      { "resource": "Mouka", "quantity": 5 },
+      { "resource": "Vejce", "quantity": 10 },
+      { "resource": "Mléko", "quantity": 2 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 15 },
+      { "type": "add_water", "value": 20 },
+      { "type": "add_huger", "value": 50 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Pekárna", "Kuchyňská plotna"],
+    "crafting_time": 5,
+    "icon": "assets/icons/hruskovy_kolac.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 5
+  },
+  {
+    "name": "Švestkový koláč",
+    "description": "Lahodný švestkový koláč",
+    "ingredients": [
+      { "resource": "Švestky", "quantity": 30 },
+      { "resource": "Mouka", "quantity": 5 },
+      { "resource": "Vejce", "quantity": 10 },
+      { "resource": "Mléko", "quantity": 2 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 15 },
+      { "type": "add_water", "value": 20 },
+      { "type": "add_huger", "value": 50 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Pekárna", "Kuchyňská plotna"],
+    "crafting_time": 5,
+    "icon": "assets/icons/jablecny_kolac.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 5
+  },
+  {
+    "name": "Jahodový koláč",
+    "description": "Lahodný jahodový koláč",
+    "ingredients": [
+      { "resource": "Jahody", "quantity": 25 },
+      { "resource": "Mouka", "quantity": 5 },
+      { "resource": "Vejce", "quantity": 10 },
+      { "resource": "Mléko", "quantity": 2 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 15 },
+      { "type": "add_water", "value": 20 },
+      { "type": "add_huger", "value": 50 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Pekárna", "Kuchyňská plotna"],
+    "crafting_time": 5,
+    "icon": "assets/icons/jahodovy_kolac.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 5
+  },
+  {
+    "name": "Masový koláč",
+    "description": "Lahodný Masový koláč",
+    "ingredients": [
+      { "resource": "Syrové maso", "quantity": 10 },
+      { "resource": "Mouka", "quantity": 5 },
+      { "resource": "Vejce", "quantity": 10 },
+      { "resource": "Voda", "quantity": 2 },
+      { "resource": "Sůl", "quantity": 1 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 15 },
+      { "type": "add_water", "value": 15 },
+      { "type": "add_hunger", "value": 45 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Pekárna", "Kuchyňská plotna"],
+    "crafting_time": 90,
+    "icon": "assets/icons/masovy_kolac.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 5
+  },
+  {
+    "name": "Pečená ryba",
+    "description": "Pečená ryba",
+    "ingredients": [{ "resource": "Ryba", "quantity": 1 }],
+    "effect": [
+      { "type": "heal_hp", "value": 5 },
+      { "type": "add_water", "value": 5 },
+      { "type": "add_hunger", "value": 5 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Krb", "Oheň", "Kuchyňská plotna"],
+    "crafting_time": 2,
+    "icon": "assets/icons/pecena_ryba.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 10
+  },
+  {
+    "name": "Sušená ryba",
+    "description": "Sušená ryba",
+    "ingredients": [
+      { "resource": "Ryba", "quantity": 1 },
+      { "resource": "Sůl", "quantity": 1 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 5 },
+      { "type": "add_water", "value": 0.5 },
+      { "type": "add_hunger", "value": 5 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Sušák"],
+    "crafting_time": 2,
+    "icon": "assets/icons/susena_ryba.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 10
+  },
+  {
+    "name": "Sušené maso",
+    "description": "Sušené maso",
+    "ingredients": [
+      { "resource": "Syrové maso", "quantity": 1 },
+      { "resource": "Sůl", "quantity": 1 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 5 },
+      { "type": "add_water", "value": 0.5 },
+      { "type": "add_hunger", "value": 5 },
+      { "type": "add_production_skill", "base_value": 1.0, "scale_by_skill_level": true }
+    ],
+    "required_station": ["Sušák"],
+    "crafting_time": 2,
+    "icon": "assets/icons/susene_maso.jpg",
+    "preserved_food": true,
+    "shelf_life_days": 180,
+    "stack_limit": 30
+  },
+  {
+    "name": "Víno",
+    "description": "Lahodné víno",
+    "ingredients": [
+      { "resource": "Hrozny", "quantity": 50 },
+      { "resource": "Voda", "quantity": 10 },
+      { "resource": "Alkohol", "quantity": 5 }
+    ],
+    "effect": [
+      { "type": "add_water", "value": 10 },
+      { "type": "add_alcohol", "value": 15 }
+    ],
+    "required_station": ["Lihovar"],
+    "crafting_time": 10,
+    "icon": "assets/icons/vino.jpg",
+    "preserved_food": true,
+    "shelf_life_days": 365,
+    "stack_limit": 20
+  },
+  {
+    "name": "Medovina",
+    "description": "Sladká medovina",
+    "ingredients": [
+      { "resource": "Med", "quantity": 10 },
+      { "resource": "Alkohol", "quantity": 5 },
+      { "resource": "Voda", "quantity": 5 }
+    ],
+    "effect": [
+      { "type": "add_water", "value": 10 },
+      { "type": "add_blood_alcohol", "value": 10 }
+    ],
+    "required_station": ["Lihovar"],
+    "crafting_time": 8,
+    "icon": "assets/icons/medovina.jpg",
+    "preserved_food": true,
+    "shelf_life_days": 365,
+    "stack_limit": 20
+  },
+  {
+    "name": "Pivo",
+    "description": "Osvěžující pivo",
+    "ingredients": [
+      { "resource": "Ječmen", "quantity": 20 },
+      { "resource": "Voda", "quantity": 10 },
+      { "resource": "Chmel", "quantity": 5 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 5 },
+      { "type": "add_water", "value": 15 },
+      { "type": "add_hunger", "value": 5 },
+      { "type": "add_blood_alcohol", "value": 8 }
+    ],
+    "required_station": ["Lihovar"],
+    "crafting_time": 6,
+    "icon": "assets/icons/pivo.jpg",
+    "preserved_food": true,
+    "shelf_life_days": 180,
+    "stack_limit": 20
+  },
+  {
+    "name": "Jablečný mošt",
+    "description": "Čerstvý jablečný mošt",
+    "ingredients": [{ "resource": "Jablka", "quantity": 10 }],
+    "effect": [
+      { "type": "heal_hp", "value": 5 },
+      { "type": "add_water", "value": 20 },
+      { "type": "add_hunger", "value": 5 }
+    ],
+    "required_station": ["Lis na ovoce"],
+    "crafting_time": 3,
+    "icon": "assets/icons/jablecny_most.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 7,
+    "stack_limit": 10
+  },
+  {
+    "name": "Hruškový mošt",
+    "description": "Čerstvý hruškový mošt",
+    "ingredients": [{ "resource": "Hrušky", "quantity": 10 }],
+    "effect": [
+      { "type": "heal_hp", "value": 5 },
+      { "type": "add_water", "value": 20 },
+      { "type": "add_hunger", "value": 5 }
+    ],
+    "required_station": ["Lis na ovoce"],
+    "crafting_time": 3,
+    "icon": "assets/icons/hruskovy_most.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 7,
+    "stack_limit": 10
+  },
+  {
+    "name": "Medový nápoj",
+    "description": "Sladký medový nápoj",
+    "ingredients": [
+      { "resource": "Med", "quantity": 5 },
+      { "resource": "Voda", "quantity": 5 }
+    ],
+    "effect": [
+      { "type": "heal_hp", "value": 5 },
+      { "type": "add_water", "value": 15 },
+      { "type": "add_hunger", "value": 5 }
+    ],
+    "required_station": ["Kuchyňská plotna"],
+    "crafting_time": 2,
+    "icon": "assets/icons/medovy_napoj.jpg",
+    "preserved_food": false,
+    "shelf_life_days": 5,
+    "stack_limit": 10
+  }
+]

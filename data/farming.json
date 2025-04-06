@@ -1,0 +1,407 @@
+[
+  {
+          "name": "Len",
+          "type": "material",
+          "weight": 0.5,
+          "value": 2.5,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 },
+            { "resource": "Železná motyka", "quantity": 1 }
+          ],
+          "crafting_method": {
+            "location": "stodola",
+            "input": [],
+            "output_quantity": 2,
+            "outputs": [
+              { "item": "lněné semínko", "quantity": 2 },
+              { "item": "lněné vlákno", "quantity": 1 }
+            ]
+          },
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 },
+            "growth_duration": 30
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Žito",
+          "type": "material",
+          "weight": 0.1,
+          "value": 2.5,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 },
+            { "resource": "Železná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 },
+            "growth_duration": 45
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Mák",
+          "type": "material",
+          "weight": 0.2,
+          "value": 1.5,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 4 },
+            "growth_duration": 40
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Sláma",
+          "type": "material",
+          "weight": 0.3,
+          "value": 0.5,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Léto", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 5 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Oves",
+          "type": "material",
+          "weight": 0.2,
+          "value": 1.0,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Chmel",
+          "type": "material",
+          "weight": 0.4,
+          "value": 3.0,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 2 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Mrkev",
+          "type": "material",
+          "weight": 0.1,
+          "value": 0.8,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 4 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Zelí",
+          "type": "material",
+          "weight": 0.5,
+          "value": 1.2,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Cibule",
+          "type": "material",
+          "weight": 0.2,
+          "value": 0.9,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Pórek",
+          "type": "material",
+          "weight": 0.2,
+          "value": 1.0,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Brambory",
+          "type": "material",
+          "weight": 0.3,
+          "value": 1.5,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 5 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Květák",
+          "type": "material",
+          "weight": 0.4,
+          "value": 2.0,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Okurka",
+          "type": "material",
+          "weight": 0.3,
+          "value": 1.8,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 4 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Petržel",
+          "type": "material",
+          "weight": 0.1,
+          "value": 0.7,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Špenát",
+          "type": "material",
+          "weight": 0.2,
+          "value": 1.0,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Česnek",
+          "type": "material",
+          "weight": 0.1,
+          "value": 1.2,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Ječmen",
+          "type": "material",
+          "weight": 0.2,
+          "value": 1.0,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Kukuřice",
+          "type": "material",
+          "weight": 0.5,
+          "value": 2.0,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Léto", "Podzim"],
+            "output_quantity_range": { "min": 1, "max": 4 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Pšenice",
+          "type": "material",
+          "weight": 0.3,
+          "value": 1.5,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Jahoda",
+          "type": "material",
+          "weight": 0.2,
+          "value": 2.5,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Malina",
+          "type": "material",
+          "weight": 0.2,
+          "value": 2.5,
+          "gathering_method": "Získává se pěstováním na poli",
+          "required_items": [
+            { "resource": "Dřevěná motyka", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro", "Léto"],
+            "output_quantity_range": { "min": 1, "max": 3 }
+          },
+          "usage": ["crafting", "farming"]
+        },
+        {
+          "name": "Jabloň",
+          "type": "sapling",
+          "weight": 1.0,
+          "value": 5.0,
+          "gathering_method": "Sází se jako strom",
+          "required_items": [
+            { "resource": "Lopata", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro"],
+            "output_quantity_range": { "min": 1, "max": 1 }
+          },
+          "usage": ["farming"]
+        },
+        {
+          "name": "Hruška",
+          "type": "sapling",
+          "weight": 1.0,
+          "value": 5.0,
+          "gathering_method": "Sází se jako strom",
+          "required_items": [
+            { "resource": "Lopata", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro"],
+            "output_quantity_range": { "min": 1, "max": 1 }
+          },
+          "usage": ["farming"]
+        },
+        {
+          "name": "Švestka",
+          "type": "sapling",
+          "weight": 1.0,
+          "value": 5.0,
+          "gathering_method": "Sází se jako strom",
+          "required_items": [
+            { "resource": "Lopata", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro"],
+            "output_quantity_range": { "min": 1, "max": 1 }
+          },
+          "usage": ["farming"]
+        },
+        {
+          "name": "Višeň",
+          "type": "sapling",
+          "weight": 1.0,
+          "value": 5.0,
+          "gathering_method": "Sází se jako strom",
+          "required_items": [
+            { "resource": "Lopata", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro"],
+            "output_quantity_range": { "min": 1, "max": 1 }
+          },
+          "usage": ["farming"]
+        },
+        {
+          "name": "Třešeň",
+          "type": "sapling",
+          "weight": 1.0,
+          "value": 5.0,
+          "gathering_method": "Sází se jako strom",
+          "required_items": [
+            { "resource": "Lopata", "quantity": 1 }
+          ],
+          "farming_conditions": {
+            "seasons": ["Jaro"],
+            "output_quantity_range": { "min": 1, "max": 1 },
+            "growth_duration": 730
+          },
+          "usage": ["farming"]
+        }
+]

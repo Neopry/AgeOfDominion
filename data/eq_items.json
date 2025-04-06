@@ -1,0 +1,247 @@
+{
+    "items": [
+      {
+        "name": "Dřevěný krumpáč",
+        "crafting_conditions": ["Klacek", "Kláda", "Dřevěný kolík"],
+        "crafting_time": 5,
+        "damage": 2,
+        "durability": 50,
+        "stamina_cost": 1,
+        "sell_price": 5,
+        "buy_price": 10,
+        "general_price": 8
+      },
+      {
+        "name": "Kamenný krumpáč",
+        "crafting_conditions": ["Kláda", "Kámen", "Dřevěný kolík"],
+        "crafting_time": 7,
+        "damage": 4,
+        "durability": 100,
+        "stamina_cost": 2,
+        "sell_price": 10,
+        "buy_price": 20,
+        "general_price": 15
+      },
+      {
+        "name": "Železný krumpáč",
+        "crafting_conditions": ["iron"],
+        "crafting_time": 10,
+        "damage": 6,
+        "durability": 200,
+        "stamina_cost": 3,
+        "sell_price": 20,
+        "buy_price": 40,
+        "general_price": 30
+      },
+      {
+        "name": "Dřevěné kladivo",
+        "crafting_conditions": ["wood"],
+        "crafting_time": 5,
+        "damage": 1,
+        "durability": 40,
+        "stamina_cost": 1,
+        "sell_price": 4,
+        "buy_price": 8,
+        "general_price": 6
+      },
+      {
+        "name": "Kamenné kladivo",
+        "crafting_conditions": ["stone"],
+        "crafting_time": 7,
+        "damage": 3,
+        "durability": 80,
+        "stamina_cost": 2,
+        "sell_price": 8,
+        "buy_price": 16,
+        "general_price": 12
+      },
+      {
+        "name": "Železné kladivo",
+        "crafting_conditions": ["iron"],
+        "crafting_time": 10,
+        "damage": 5,
+        "durability": 160,
+        "stamina_cost": 3,
+        "sell_price": 16,
+        "buy_price": 32,
+        "general_price": 24
+      },
+      {
+        "name": "Dřevěná motika",
+        "crafting_conditions": ["wood"],
+        "crafting_time": 5,
+        "damage": 1,
+        "durability": 30,
+        "stamina_cost": 1,
+        "sell_price": 3,
+        "buy_price": 6,
+        "general_price": 5
+      },
+      {
+        "name": "Kamenná motika",
+        "crafting_conditions": ["stone"],
+        "crafting_time": 7,
+        "damage": 2,
+        "durability": 60,
+        "stamina_cost": 2,
+        "sell_price": 6,
+        "buy_price": 12,
+        "general_price": 9
+      },
+      {
+        "name": "Železná motika",
+        "crafting_conditions": ["iron"],
+        "crafting_time": 10,
+        "damage": 3,
+        "durability": 120,
+        "stamina_cost": 3,
+        "sell_price": 12,
+        "buy_price": 24,
+        "general_price": 18
+      },
+      {
+        "name": "Dřevěný meč",
+        "crafting_conditions": ["wood"],
+        "crafting_time": 5,
+        "damage": 3,
+        "durability": 40,
+        "stamina_cost": 2,
+        "sell_price": 6,
+        "buy_price": 12,
+        "general_price": 9
+      },
+      {
+        "name": "Kamenný meč",
+        "crafting_conditions": ["stone"],
+        "crafting_time": 7,
+        "damage": 5,
+        "durability": 80,
+        "stamina_cost": 3,
+        "sell_price": 12,
+        "buy_price": 24,
+        "general_price": 18
+      },
+      {
+        "name": "Železný meč",
+        "crafting_conditions": ["iron"],
+        "crafting_time": 10,
+        "damage": 8,
+        "durability": 160,
+        "stamina_cost": 4,
+        "sell_price": 24,
+        "buy_price": 48,
+        "general_price": 36
+      },
+      {
+        "name": "Luk",
+        "crafting_conditions": ["wood", "string"],
+        "crafting_time": 7,
+        "damage": 4,
+        "durability": 50,
+        "stamina_cost": 2,
+        "sell_price": 10,
+        "buy_price": 20,
+        "general_price": 15
+      },
+      {
+        "name": "Reflexní luk",
+        "crafting_conditions": ["wood", "string", "resin"],
+        "crafting_time": 10,
+        "damage": 6,
+        "durability": 100,
+        "stamina_cost": 3,
+        "sell_price": 20,
+        "buy_price": 40,
+        "general_price": 30
+      },
+      {
+        "name": "Kuše",
+        "crafting_conditions": ["wood", "iron", "string"],
+        "crafting_time": 10,
+        "damage": 8,
+        "durability": 150,
+        "stamina_cost": 4,
+        "sell_price": 30,
+        "buy_price": 60,
+        "general_price": 45
+      },
+      {
+        "name": "Louč",
+        "crafting_conditions": ["wood", "resin"],
+        "crafting_time": 3,
+        "damage": 1,
+        "durability": 20,
+        "stamina_cost": 1,
+        "sell_price": 2,
+        "buy_price": 4,
+        "general_price": 3
+      },
+      {
+        "name": "Lepší louč",
+        "crafting_conditions": ["wood", "resin", "cloth"],
+        "crafting_time": 5,
+        "damage": 2,
+        "durability": 40,
+        "stamina_cost": 1,
+        "sell_price": 4,
+        "buy_price": 8,
+        "general_price": 6
+      },
+      {
+        "name": "Olejová lampa",
+        "crafting_conditions": ["iron", "oil"],
+        "crafting_time": 7,
+        "damage": 3,
+        "durability": 80,
+        "stamina_cost": 2,
+        "sell_price": 8,
+        "buy_price": 16,
+        "general_price": 12
+      },
+      {
+        "name": "Oštěp",
+        "crafting_conditions": ["wood", "stone"],
+        "crafting_time": 5,
+        "damage": 5,
+        "durability": 60,
+        "stamina_cost": 2,
+        "sell_price": 10,
+        "buy_price": 20,
+        "general_price": 15
+      },
+      {
+        "name": "Dřevěná sekera",
+        "crafting_conditions": ["wood"],
+        "crafting_time": 5,
+        "damage": 3,
+        "durability": 50,
+        "stamina_cost": 2,
+        "sell_price": 5,
+        "buy_price": 10,
+        "general_price": 8
+      },
+      {
+        "name": "Kamenná sekera",
+        "crafting_conditions": ["stone"],
+        "crafting_time": 7,
+        "damage": 5,
+        "durability": 100,
+        "stamina_cost": 3,
+        "sell_price": 10,
+        "buy_price": 20,
+        "general_price": 15
+      },
+      {
+        "name": "Železná sekera",
+        "crafting_conditions": ["iron"],
+        "crafting_time": 10,
+        "damage": 8,
+        "durability": 200,
+        "stamina_cost": 4,
+        "sell_price": 20,
+        "buy_price": 40,
+        "general_price": 30
+      }
+    ]
+  }
+  

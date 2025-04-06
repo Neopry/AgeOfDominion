@@ -1,0 +1,65 @@
+[
+    {
+      "name": "Lektvar zdraví",
+      "ingredients": [
+        { "resource": "Jitrocel", "quantity": 2 },
+        { "resource": "Třezalka", "quantity": 1 }
+      ],
+      "effect": "+50 zdraví",
+      "duration": "480 sec"
+    },
+    {
+      "name": "Lektvar síly",
+      "ingredients": [
+        { "resource": "Jitrocel", "quantity": 1 },
+        { "resource": "Stříbrná ruda", "quantity": 1 }
+      ],
+      "effect": "+20% Síla",
+      "duration": "600 sec"
+    },
+    {
+      "name": "Lektvar rychlosti",
+      "ingredients": [
+        { "resource": "Máta", "quantity": 2 },
+        { "resource": "Levandule", "quantity": 1 }
+      ],
+      "effect": "+30% Rychlost",
+      "duration": "300 sec"
+    },
+    {
+      "name": "Lektvar odolnosti",
+      "ingredients": [
+        { "resource": "Heřmánek", "quantity": 3 },
+        { "resource": "Šalvěj", "quantity": 2 }
+      ],
+      "effect": "+25% Odolnost",
+      "duration": "720 sec"
+    },
+    {
+      "name": "Lektvar neviditelnosti",
+      "ingredients": [
+        { "resource": "Stínová bylina", "quantity": 2 },
+        { "resource": "Černý lotos", "quantity": 1 }
+      ],
+      "effect": "Neviditelnost",
+      "duration": "180 sec"
+    },
+    {
+      "name": "Lektvar ohnivé síly",
+      "ingredients": [
+        { "resource": "Ohnivý květ", "quantity": 3 },
+        { "resource": "Síra", "quantity": 2 }
+      ],
+      "effect": "+40% Ohnivý útok",
+      "duration": "600 sec"
+    },
+    {
+      "name": "Lektvar mrazivé odolnosti",
+      "ingredients": [
+        { "resource": "Ledový krystal", "quantity": 2 },
+        { "resource": "Borůvka", "quantity": 3 }
+      ],
+      "effect": "+50% Odolnost proti mrazu",
+      "duration": "900 sec"
+    }
+]
